@@ -1,0 +1,256 @@
+.nav img{
+    width: 268px;
+    height: 33px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    ;
+}
+
+#about{
+    color:#00b39b;
+
+}
+#career{
+    color: darkgray;
+}
+#Departments{
+    color: darkgray;
+}
+.containerimg{
+    display: flex;
+    justify-content: center;    
+}
+.containerimg img{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+}
+#headerp {
+    color: #00b39b;
+    display: flex;
+   justify-content: center;
+   
+}
+
+#headerp p{
+    font-size: xx-large;
+}
+#p1{
+    display: flex;
+    justify-content: center;
+    padding: 0 273px;
+    color: darkgrey;
+}
+
+#p1 p{
+    margin: 20px;
+}
+ .parent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ }
+
+
+
+
+/* section cards */
+.cards{
+   
+    width: 81%;
+    display: flex;
+    justify-content: space-around;
+    padding: 160px;
+    margin-top: -90px;
+}
+
+.onecard{
+    width: 225px;
+    height: 345px;
+    border-radius: 20px;
+    background-color: #00b39b;
+    color: white;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 50px;
+}
+
+.onecard h3{
+    font-size: 2.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    text-align: center;
+    
+}
+.onecard p{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+ 
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+}
+.onecard select{
+    margin-top: 100px;
+}
+#card2{
+    background-color: #3d83df;
+}
+
+#card3{
+    background-color: #1b2734;
+}
+
+.section3{
+    width: 81%;
+    display: flex;
+    justify-content: space-around;
+    padding: 160px;
+    margin-top: -214px;
+}
+#section3title{
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+#sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#sponsor img{
+    width: 75px;
+    height: 14px;
+    margin:20px
+}
+.green{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #d0faf4;
+}
+.green1 h3{
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+    font-size: 31px;
+    width: 50%;
+}
+.green1 p{
+    font-size: 16px;
+    width: 77%;
+}
+.green2{
+    display: flex;
+    justify-content: space-around;
+}
+.g{
+    width: 243px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+}
+.g h3{
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+.groupe1{
+    margin-top: 75px
+}
+.p3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    width: 55%;
+    padding: 0 297px;
+    margin-top: 63px;
+}
+.p3 h3{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+    width: 462px;
+}
+.vistcard{
+    width: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 202px;
+
+}
+
+.visit{
+    margin: 20px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.info button{
+    background-color: #3d83df;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.section7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.section7 button{
+    background-color: #3d83df;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+}
